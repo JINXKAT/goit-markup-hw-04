@@ -156,7 +156,8 @@ img {
     background-color: #2E2F42;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1440px; 
+    max-width: 1440px;
+    margin:0 auto; 
 }
 
 .hero-title {
@@ -447,7 +448,6 @@ img {
 .footer-wrapper {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .footer-content {
