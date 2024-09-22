@@ -46,6 +46,7 @@ img {
 .page-header {
     background-color: #fff;
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 
 .header-container {
@@ -88,7 +89,7 @@ img {
     color: #2e2f42;
     display: block;
     padding: 24px 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -149,13 +150,13 @@ img {
     background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)
-    ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero.img.jpg);
     background-size: cover;
     background-color: #2E2F42;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px; 
 }
 
 .hero-title {
@@ -335,7 +336,7 @@ img {
 }
 
 .socials-icon {
-    fill: #FFFFFF;
+    fill: #f4f4fd;
 }
 
 .socials-link:hover,
@@ -445,8 +446,12 @@ img {
 
 .footer-wrapper {
     display: flex;
-    align-items: flex-start;
-    gap: 120px;
+    align-items: baseline;
+    margin-right: 120px;
+}
+
+.footer-content {
+    margin-right: 120px;
 }
 
 .footer-text {
@@ -506,12 +511,12 @@ img {
 }
 
 .socials-icon-footer {
-    fill: #FFFFFF;
+    fill: #f4f4fd;
 }
 
 .socials-link-footer:hover,
 .socials-link-footer:focus {
-    background-color: #404BBF;
+    background-color: #31d0aa;
 }
 
 
