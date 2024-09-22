@@ -153,7 +153,7 @@ img {
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero.img.jpg);
+    url(../images/hero.img.jpg);
     background-size: cover;
     background-color: #2E2F42;
 }
